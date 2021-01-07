@@ -1,0 +1,35 @@
+header {
+    background-color: blue;
+    color: tomato;
+    font-family: "Georgia", cursive;
+
+}
+
+body {
+    background-color: rgb(247, 247, 215);
+}
+
+#highscore {
+    text-align: left;
+    
+    font-size: 20px;
+    font: bold;
+    color: rgb(243, 243, 239);
+    font-family: "Georgia", cursive;
+}
+
+#timer {
+    text-align: right;
+    font-size: 20px;
+    font: bold;
+    color: rgb(243, 243, 239);
+    font-family: "Georgia", cursive;
+}
+
+h1 {
+    text-align: center;
+}
+
+.startBtn {
+     text-align: center;
+}
