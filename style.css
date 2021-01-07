@@ -1,8 +1,11 @@
 header {
     background-color: blue;
-    color: tomato;
     font-family: "Georgia", cursive;
+    align-items: baseline;
+}
 
+p {
+    text-align: center;
 }
 
 body {
@@ -11,7 +14,6 @@ body {
 
 #highscore {
     text-align: left;
-    
     font-size: 20px;
     font: bold;
     color: rgb(243, 243, 239);
@@ -28,8 +30,9 @@ body {
 
 h1 {
     text-align: center;
+    padding: 5%;
 }
 
 .startBtn {
-     text-align: center;
+     align: center;
 }
