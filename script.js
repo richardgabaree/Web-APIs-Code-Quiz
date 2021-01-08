@@ -124,7 +124,7 @@ $(document).ready(function () {
     // On submit/complete refresh the page. location.reload()
     // questionEl.textcontent = "You scored" + score + "/10"
   }
-
+  
   var questionNumber = 0;
   submitButton.addEventListener("click", function () {
     if (selectedAnswer == questions[questionNumber].answer) {
@@ -143,6 +143,7 @@ $(document).ready(function () {
       allDone();
     }
   });
+
 
   var questionEl = document.querySelector(".question");
 
@@ -220,5 +221,18 @@ $(document).ready(function () {
       // Travels to final page
       window.location.replace("./HighScores.html");
     }
+
+    //text box for high score
+  function addTextBoxField()
+  {
+              var input = document.createElement('input'); 
+              input.type = "text";
+              input.name = "skills[]";
+              input.size = "30";
+  
+              var container = document.getElementById("skillfield");
+              container.appendChild(input);
+  }
+    
   });
 });
