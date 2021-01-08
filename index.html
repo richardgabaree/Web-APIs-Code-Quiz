@@ -17,9 +17,9 @@
             <p>View High Score</p>
         </span>
         <span id="timer">
-            <p>Time
+            <p>
                 <span id="counter">
-                    60
+                    
                 </span>
             </p>
         </span>
@@ -27,10 +27,15 @@
 
     <main>
         <h1>A Very Consusing Game</h1>
-        <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+        <p id="instruction">Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+        <div id="qa">
             <button id="startBtn">
                 Start Quiz
             </button>
+            <h1 class= "question"></h1>
+            <ul id = "question-list"></ul>
+            <button type="button" class = "submit-button">Submit answer</button>
+        </div>
     </main>
     <script src="script.js"></script>
 </body>
