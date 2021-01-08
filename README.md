@@ -1,34 +1,27 @@
-## Code Quiz Homework 4
+# Code Quiz Homework 4
 
+## ** Quiz Created by JavaScript **
 
-### Markdown
+Created a quiz with timer, questions with multiple choice questions, score, highscore keeper on local storage.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## ** Built With **
 
-```markdown
-Syntax highlighted code block
+* HTML
+* CSS
+* Bootstrap
+* JavaScript
 
-# Header 1
-## Header 2
-### Header 3
+## ** Contributing **
 
-- Bulleted
-- List
+* Richard Gabaree
 
-1. Numbered
-2. List
+## ** What I learned **
 
-**Bold** and _Italic_ and `Code` text
+* javaScript
+* Building Arrays
+* time intervals
+* 
 
-[Link](url) and ![Image](src)
-```
+https://github.com/richardgabaree/web-apis-code-quiz-main
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/richardgabaree/Web-APIs-Code-Quiz/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+The homework was challenging. HTML seems to be easier since you are just creating a shell for javaScrip to adjust. Know where to start on the .js doc is not well defined so I needed to breakdown the example as a wireframe to start addressing each element. Working out the functions to address all the questions, choices and answers then move to next in array was confusing. I'm having a challenge with javaScript and growing upon it. 
